@@ -1,44 +1,44 @@
 {
   "users": [
     {
-      "id": 1,
       "first_name": "Steve",
       "last_name": "Smith",
       "username": "ssmith",
       "password": "admin123",
       "email": "ssmith@rarebook.com",
       "store_number": 302,
-      "isManager": true
+      "isManager": true,
+      "id": 1
     },
     {
-      "id": 2,
       "first_name": "Mike",
       "last_name": "Williams",
       "username": "mwilliams",
       "password": "emp123",
       "email": "mwilliams@rarebook.com",
       "storeNumber": 302,
-      "isManager": false
+      "isManager": false,
+      "id": 2
     },
     {
-      "id": 3,
       "first_name": "Lesile",
       "last_name": "Hill",
       "username": "lhill",
       "passowrd": "emp123",
       "email": "lhill@rarebook.com",
       "storeNumber": 302,
-      "isManager": false
+      "isManager": false,
+      "id": 3
     },
     {
-      "id": 4,
       "first_name": "Ellen",
       "last_name": "Henderson",
       "username": "ehenderson",
       "password": "admin123",
       "email": "ehenderson@rarebook.com",
       "storeNumber": 302,
-      "isManager": true
+      "isManager": true,
+      "id": 4
     }
   ],
   "books": [
@@ -46,10 +46,10 @@
       "id": 1,
       "title": "I Know Why The Cage Bird Sings",
       "author": "Maya Angelou",
-      "year": "1969",
+      "year": 1969,
       "genre": "Non-fiction",
       "condition": "Excellent",
-      "cost": "1000",
+      "cost": 900,
       "quantity": "2"
     },
     {
@@ -66,11 +66,11 @@
       "id": 3,
       "title": "A New Title",
       "author": "Mr. Guy",
-      "year": "561",
+      "year": 561,
       "genre": "ef",
       "condition": "Excellent",
-      "cost": "56",
-      "quantity": "1"
+      "cost": 56,
+      "quantity": 1
     }
   ]
 }
